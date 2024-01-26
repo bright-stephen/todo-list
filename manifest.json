@@ -1,0 +1,31 @@
+{
+  "short_name": "Task App",
+  "name": "Express To-do List",
+  "developer": "xbot-tech",
+  "icons": [
+    {
+      "src": "todo-logo.png",
+      "type": "image/png",
+      "sizes": "375x374"
+    },
+    {
+      "src": "image.png",
+      "type": "image/png",
+      "sizes": "379x373"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "378x371"
+    },
+    {
+      "src": "todo-image.png",
+      "type": "image/png",
+      "sizes": "379x373"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#5E17EB"
+}
