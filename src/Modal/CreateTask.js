@@ -19,6 +19,8 @@ function CreateTask({modal, toggle, save}) {
         taskObj['Name'] = taskName.toUpperCase();
         taskObj['Description'] = description;
         save(taskObj);
+        setTaskName("");
+        setDescription("");
     }
 
 
