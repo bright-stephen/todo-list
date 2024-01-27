@@ -50,8 +50,8 @@ function TodoList() {
     <>
         <div className="header text-center">
             <img className="image" src={IMG} alt="..."></img>
-            <h3>Create, Edit & Delete Tasks</h3>
-            <button className="btn btn-primary mt-2" onClick={()=>setModal(true)}>Create Tasks</button>
+            <h3>Create, Edit & Delete Notes</h3>
+            <button className="btn btn-primary mt-2" onClick={()=>setModal(true)}>Create Notes</button>
         </div>
         <div className="task-container">
             {taskList && taskList.map((obj, index) => 

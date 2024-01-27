@@ -1,22 +1,17 @@
 {
-  "short_name": "Task App",
-  "name": "Express To-do List",
+  "short_name": "Note App",
+  "name": "Express To-do Note By Xbot Tech",
   "developer": "xbot-tech",
   "icons": [
     {
-      "src": "todo-logo.png",
+      "src": "note.png",
       "type": "image/png",
-      "sizes": "375x374"
+      "sizes": "259x194"
     },
     {
       "src": "image.png",
       "type": "image/png",
       "sizes": "379x373"
-    },
-    {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "378x371"
     },
     {
       "src": "todo-image.png",

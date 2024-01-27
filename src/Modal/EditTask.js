@@ -35,11 +35,11 @@ function EditTask({modal, toggle, updateTask, taskObj}) {
         <ModalBody>
             <form>
                 <div className='form-group'>
-                    <label>Update Task</label>
+                    <label>Update Note</label>
                     <input type='text' className='form-control' value={taskName.toUpperCase()} onChange={handleChange} name='taskName'/>
                 </div>
                 <div className='form-group'>
-                    <label className='mt-3'>Update Task Description</label>
+                    <label className='mt-3'>Update Note Description</label>
                     <textarea rows='5' className='form-control' value={description} onChange={handleChange} name='description'></textarea>
                 </div>
             </form>

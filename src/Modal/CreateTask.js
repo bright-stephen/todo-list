@@ -30,11 +30,11 @@ function CreateTask({modal, toggle, save}) {
         <ModalBody>
             <form>
                 <div className='form-group'>
-                    <label>Task Name</label>
+                    <label>Note Title</label>
                     <input type='text' className='form-control' value={taskName.toUpperCase()} onChange={handleChange} name='taskName'/>
                 </div>
                 <div className='form-group'>
-                    <label className='mt-3'>Task Description</label>
+                    <label className='mt-3'>Note Description</label>
                     <textarea rows='5' className='form-control' value={description} onChange={handleChange} name='description'></textarea>
                 </div>
             </form>

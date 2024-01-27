@@ -45,7 +45,7 @@ function Card({taskObj, index, deleteTask, updateListArray}) {
             <div className='card-top' style={{"background-color": colors[index%5].primaryColor}}></div>
             <span className='card-header h5'  style={{"background-color": colors[index%5].secondaryColor, "border-radius": "10px", "fontFamily": "monospace"}}>{taskObj.Name}</span>
             <p className='ms-2' style={{"height": "100%"}}>{taskObj.Description}</p>
-            <div className='task-icons ms-2 ms-auto p-3'>
+            <div className='task-icons p-3'>
                 <i class="bi bi-pencil-square h3" style={{"color": colors[index%5].primaryColor, "cursor": "pointer"}} onClick={() => setModal(true)}></i>
                 <i class="bi bi-trash h3" style={{"color": colors[index%5].primaryColor, "cursor": "pointer"}} onClick={handleDelete}></i>
             </div>
